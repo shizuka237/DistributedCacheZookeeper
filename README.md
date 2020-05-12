@@ -86,12 +86,12 @@ java -jar target/DistCaching-1.0-SNAPSHOT.jar --server.port=8081
 
  * you can use curl and Postman to SET/ GET/ EXPIRE API's , we have tested following scenarios
       1. SET Key by request to one server, GET the same key from another server.
-          ![SET A KEY IN SERVER localhost:8080](https://github.com/shizuka237/DistributedCacheZookeeper/blob/master/screenshots/SET_KEY.png){:height="400px" width="400px"}
+          ![SET A KEY IN SERVER localhost:8080](https://github.com/shizuka237/DistributedCacheZookeeper/blob/master/screenshots/SET_KEY.png)
           
-          ![GET THAT KEY IN SERVER localhost:8082](https://github.com/shizuka237/DistributedCacheZookeeper/blob/master/screenshots/GET_AFTER_SET.png){:height="400px" width="400px"}
+          ![GET THAT KEY IN SERVER localhost:8082](https://github.com/shizuka237/DistributedCacheZookeeper/blob/master/screenshots/GET_AFTER_SET.png)
 
       2. SET key from one server , Sutdown that server, GET same key from another alive server.
-          ![EXPIRE A KEY IN SERVER localhost:8081](https://github.com/shizuka237/DistributedCacheZookeeper/blob/master/screenshots/DEL_KEY.png){:height="400px" width="400px"}
+          ![EXPIRE A KEY IN SERVER localhost:8081](https://github.com/shizuka237/DistributedCacheZookeeper/blob/master/screenshots/DEL_KEY.png)
           
-          ![GET THAT KEY IN SERVER localhost:8082](https://github.com/shizuka237/DistributedCacheZookeeper/blob/master/screenshots/GET_AFTER_DEL.png){:height="400px" width="400px"}
+          ![GET THAT KEY IN SERVER localhost:8082](https://github.com/shizuka237/DistributedCacheZookeeper/blob/master/screenshots/GET_AFTER_DEL.png)
 
